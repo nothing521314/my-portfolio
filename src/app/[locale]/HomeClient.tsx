@@ -88,7 +88,7 @@ export default function HomeClient({ dict, locale }: HomeClientProps) {
                 <ScrollReveal delay={1}>
                   <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight">
                     {dict.hero.greeting} <br />
-                    <span className="text-gradient font-black">
+                    <span className="text-gradient font-black inline-block py-3 px-1">
                       {dict.cvData.name}
                     </span>
                   </h1>
