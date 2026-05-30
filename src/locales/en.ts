@@ -2,8 +2,8 @@ import { Translation } from "./types";
 
 export const en: Translation = {
   metadata: {
-    title: "Nguyen Van Tuan | Senior Frontend Developer Portfolio",
-    description: "Portfolio of Nguyen Van Tuan - Senior Frontend Developer with 5 years of experience specializing in React.js, Next.js, and high-concurrency systems optimization.",
+    title: "Nguyen Van Tuan | Middle Frontend Developer Portfolio",
+    description: "Portfolio of Nguyen Van Tuan - Middle Frontend Developer with 5 years of experience specializing in React.js, Next.js, and high-concurrency systems optimization.",
     keywords: ["Nguyen Van Tuan", "Nguyen Van Tuan Frontend", "Frontend Developer", "Nextjs Portfolio", "ReactJS", "SotaTek", "Developer Portfolio Vietnam"],
   },
   nav: {
@@ -18,7 +18,7 @@ export const en: Translation = {
   hero: {
     badge: "Ready for large-scale projects",
     greeting: "Hi, I am",
-    role: "Senior Frontend Developer",
+    role: "Middle Frontend Developer",
     desc: "Frontend Specialist with 5 years of experience building high-performance web systems serving up to 7.5M active users for leading Korean and Japanese partners.",
     viewProjects: "View Projects",
     contactDirect: "Contact Directly",
@@ -106,7 +106,7 @@ export const en: Translation = {
   },
   cvData: {
     name: "NGUYEN VAN TUAN",
-    title: "Senior Frontend Developer",
+    title: "Middle Frontend Developer",
     email: "nguyentuan.dev2010@gmail.com",
     phone: "+84 38 436 7271",
     location: "Hanoi, Vietnam",

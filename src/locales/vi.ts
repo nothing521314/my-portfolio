@@ -2,8 +2,8 @@ import { Translation } from "./types";
 
 export const vi: Translation = {
   metadata: {
-    title: "Nguyễn Văn Tuân | Senior Frontend Developer Portfolio",
-    description: "Portfolio của Nguyễn Văn Tuân - Senior Frontend Developer với 5 năm kinh nghiệm chuyên sâu về React.js, Next.js và tối ưu hóa hệ thống tải cao phục vụ tới 7.5 triệu người dùng.",
+    title: "Nguyễn Văn Tuân | Middle Frontend Developer Portfolio",
+    description: "Portfolio của Nguyễn Văn Tuân - Middle Frontend Developer với 5 năm kinh nghiệm chuyên sâu về React.js, Next.js và tối ưu hóa hệ thống tải cao phục vụ tới 7.5 triệu người dùng.",
     keywords: ["Nguyen Van Tuan", "Nguyen Van Tuan Frontend", "Frontend Developer", "Nextjs Portfolio", "ReactJS", "SotaTek", "Developer Portfolio Vietnam"],
   },
   nav: {
@@ -18,7 +18,7 @@ export const vi: Translation = {
   hero: {
     badge: "Sẵn sàng cho các dự án quy mô lớn",
     greeting: "Xin chào, tôi là",
-    role: "Senior Frontend Developer",
+    role: "Middle Frontend Developer",
     desc: "Chuyên gia phát triển Frontend với 5 năm kinh nghiệm xây dựng các hệ thống tải cao phục vụ tới 7.5M người dùng hoạt động cho các đối tác hàng đầu Nhật Bản và Hàn Quốc.",
     viewProjects: "Xem dự án",
     contactDirect: "Liên hệ trực tiếp",
@@ -106,7 +106,7 @@ export const vi: Translation = {
   },
   cvData: {
     name: "NGUYỄN VĂN TUÂN",
-    title: "Senior Frontend Developer",
+    title: "Middle Frontend Developer",
     email: "nguyentuan.dev2010@gmail.com",
     phone: "+84 38 436 7271",
     location: "Hà Nội, Việt Nam",
