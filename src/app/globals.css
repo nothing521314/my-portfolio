@@ -82,6 +82,7 @@
 html,
 body {
   background-color: var(--color-bg-main);
+  background-image: linear-gradient(to bottom, #030712, #0b0f19);
   color: #f9fafb;
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;

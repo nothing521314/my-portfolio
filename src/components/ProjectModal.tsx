@@ -40,7 +40,7 @@ export default function ProjectModal({
       onClick={onClose}
     >
       <div
-        className="w-full max-w-[720px] max-h-[90vh] bg-slate-950 border border-white/10 rounded-2xl overflow-hidden shadow-2xl flex flex-col"
+        className="w-full max-w-[720px] max-h-[80vh] bg-slate-950 border border-white/10 rounded-2xl overflow-hidden shadow-2xl flex flex-col"
         onClick={(e) => e.stopPropagation()}
         role="dialog"
         aria-modal="true"
@@ -49,7 +49,7 @@ export default function ProjectModal({
         <div className="p-8 bg-linear-to-br from-indigo-500/15 to-cyan-500/15 border-b border-white/5 relative">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(99,102,241,0.2)_0%,transparent_60%)] pointer-events-none" />
           <button
-            className="absolute top-6 right-6 bg-white/5 border border-white/10 text-gray-400 w-9 h-9 rounded-full flex justify-center items-center cursor-pointer transition-all hover:bg-white/10 hover:text-white hover:rotate-90"
+            className="absolute top-6 right-6 bg-white/5 border border-white/10 text-gray-400 w-9 h-9 rounded-full flex justify-center items-center cursor-pointer transition-all hover:bg-white/10 hover:text-white hover:rotate-90 z-100"
             onClick={onClose}
             aria-label={dict.close}
           >
