@@ -36,7 +36,14 @@ export default function ContactForm({ dict }: ContactFormProps) {
     setStatus("loading");
 
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formState),
+      });
+
+      if (!res.ok) throw new Error("API error");
+
       setStatus("success");
       setFormState({ name: "", email: "", subject: "", message: "" });
     } catch {
