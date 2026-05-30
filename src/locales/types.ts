@@ -25,6 +25,7 @@ export interface Translation {
     viewProjects: string;
     contactDirect: string;
     currentPosition: string;
+    currentPositionVal: string;
   };
   about: {
     badge: string;

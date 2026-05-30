@@ -132,7 +132,7 @@ export default function HomeClient({ dict, locale }: HomeClientProps) {
                         {dict.hero.currentPosition}
                       </span>
                       <span className="text-sm font-semibold text-secondary">
-                        FE Lead @ SotaTek
+                        {dict.hero.currentPositionVal}
                       </span>
                     </div>
 
